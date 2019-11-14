@@ -292,7 +292,7 @@ printf ( "Do you want to ask another question about %d ?  \n",s);
     do{
 	printf("Only the single characters Y or N are acceptable \n");
 	
-	printf ( "would you like to select another year [ Y to N ] ?  \n");
+	printf ( "would you like to select another year [ 1880 to 2010 ] ?  \n");
       scanf("%s",o);
 	}while ((strcmp("Y",o) != 0) && (strcmp("N",o) != 0) );
 
